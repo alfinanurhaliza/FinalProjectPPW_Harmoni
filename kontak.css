@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand .logo-circle {
+    border-radius: 50%;
+}
+
+.logo-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h3, h2{
+    text-align: center;
+}
+
+.contact-form, .contact-info {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form select, .contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #33606E;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.contact-info h2 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info h2{
+    margin-bottom: 20px;
+}
+
+.contact-info p{
+    margin-bottom: 20px;
+}
+
+.contact-info .button {
+    display: block;
+    width: 80%;
+    padding: 15px;
+    margin: 10px auto;
+    color: #fff;
+    background-color: #33606E;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.note{
+    font-size: 12px;
+    color: #555;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
