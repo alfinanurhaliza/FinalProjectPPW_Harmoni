@@ -12,7 +12,7 @@ body {
 .logo-circle {
     border-radius: 50%;
     object-fit: cover;
-    margin: 5px; /* Tambahkan margin sesuai kebutuhan */
+    margin: 5px; 
 }
 
 .price-table {
