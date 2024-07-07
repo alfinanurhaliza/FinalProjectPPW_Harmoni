@@ -1,8 +1,14 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar-brand .logo-circle {
@@ -19,9 +25,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    flex: 1;
 }
 
-h3, h2{
+h3, h2 {
     text-align: center;
 }
 
@@ -48,7 +55,7 @@ h3, h2{
     border-radius: 5px;
 }
 
-.contact-form button{
+.contact-form button {
     margin-top: 20px;
     padding: 10px;
     border: none;
@@ -83,11 +90,11 @@ h3, h2{
     text-align: center;
 }
 
-.contact-info h2{
+.contact-info h2 {
     margin-bottom: 20px;
 }
 
-.contact-info p{
+.contact-info p {
     margin-bottom: 20px;
 }
 
@@ -105,18 +112,15 @@ h3, h2{
     text-decoration: none;
 }
 
-.note{
+.note {
     font-size: 12px;
     color: #555;
 }
 
-/* Footer */
 .footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto;
 }
