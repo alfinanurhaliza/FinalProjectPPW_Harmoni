@@ -12,11 +12,11 @@ body {
 .logo-circle {
     border-radius: 50%;
     object-fit: cover;
-    margin: 5px; /* Tambahkan margin sesuai kebutuhan */
+    margin: 5px; 
 }
 
 .carousel-item img {
-    height: 570px; /* Sesuaikan tinggi carousel sesuai kebutuhan */
+    height: 570px; 
     object-fit: cover;
 }
 
@@ -29,7 +29,7 @@ main {
 }
 
 .card:hover {
-    transform: translateY(-5px); /* Efek mengangkat card saat hover */
+    transform: translateY(-5px); 
 }
 
 /* Headline */
@@ -40,8 +40,8 @@ main {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    z-index: 1000; /* Pastikan headline muncul di atas carousel */
-    font-size: 20px; /* Atur ukuran teks */
+    z-index: 1000; 
+    font-size: 20px; 
 }
 
 .headline h1 {
@@ -72,7 +72,7 @@ main {
 /*studio foto*/
 .container h2 {
     font-size: 2rem;
-    color: #8B0000; /* Dark Red */
+    color: #8B0000; 
     margin-bottom: 40px; 
 }
 
@@ -105,7 +105,7 @@ main {
 
 .product-item .card-body h5 {
     font-size: 1.5rem;
-    color: #8B0000; /* Dark Red */
+    color: #8B0000; 
 }
 
 .product-item .card-title {
@@ -119,27 +119,25 @@ main {
     color: #555;
 }
 
-/* About section */
 .about-section {
-    margin-top: 50px; /* Atur jarak atas */
-    padding: 20px; /* Atur padding */
-    background-color: #333; /* Warna latar belakang */
-    color: white; /* Warna teks */
-    border-radius: 10px; /* Border radius */
+    margin-top: 50px;
+    padding: 20px; 
+    background-color: #333; 
+    color: white;
+    border-radius: 10px; 
     margin-bottom: 50px;
 }
 
 .about-section h2 {
-    margin-bottom: 20px; /* Atur jarak bawah */
-    color: white; /* Warna teks h2 */
-    font-weight: bold; /* Tebal */
+    margin-bottom: 20px; 
+    color: white; 
+    font-weight: bold; 
 }
 
 .about-section img {
-    border-radius: 50%; /* Membuat gambar menjadi berbentuk lingkaran */
+    border-radius: 50%; 
 }
 
-/*keunggulan*/
 .card-container {
     display: flex;
     justify-content: center;
@@ -149,7 +147,7 @@ main {
 
 .card-container h3 {
     font-size: 2rem;
-    color: #8B0000; /* Dark Red */
+    color: #8B0000;
     margin-bottom: 40px;
 }
 
@@ -177,7 +175,6 @@ main {
     color: #555;
 }
 
-/* Footer */
 .footer {
     background-color: black;
     color: white;
